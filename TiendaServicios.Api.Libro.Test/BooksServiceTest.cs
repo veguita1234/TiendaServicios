@@ -15,7 +15,7 @@ using Xunit;
 namespace TiendaServicios.Api.Libro.Test
 {
     public class BooksServiceTest
-    {//ola
+    {
         private IEnumerable<MaterialLibrary> GetTestData()
         {
             A.Configure<MaterialLibrary>()
